@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <title>Ramadan Kareem</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="ramadan">
+
+    <h1>🌙 رمضان كريم 🌙</h1>
+
+    <img src="ramadan.jpg" alt="ramadan" width="300" height="170">
+
+    <p>
+        أتمنى لكم شهر مبارك مليء بالخير والبركة
+    </p>
+
+    <button>كل عام وأنتم بخير</button>
+    
+</div>
+
+ <footer class="footer-name">
+        Developed by Hicham El Azaar
+    </footer>
+   <audio id="ramadanSound">
+    <source src="music ramadan.mp3" type="audio/mpeg">
+</audio>
+
+
+<script>
+    document.addEventListener("click", function () {
+        if (sessionStorage.getItem("ramadanPlayed")) return;
+
+        var sound = document.getElementById("ramadanSound");
+        sound.volume = 0.6;
+        sound.play();
+
+        sessionStorage.setItem("ramadanPlayed", "yes");
+    });
+</script>
+
+
+
+
+
+
+</body>
+</html>

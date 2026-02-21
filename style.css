@@ -1,0 +1,57 @@
+body {
+    background-color:rgb(7, 7, 66);
+    font-family: Arial, sans-serif;
+}
+
+.ramadan {
+    background: white;
+    width: 350px;
+    margin: 80px auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+h1 {
+    color: #1e90ff;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+button {
+    background-color: gold;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+
+button:hover {
+    background-color: orange;
+}
+
+
+p{
+color: #1e90ff;
+}
+
+
+.footer-name {
+  
+    position: fixed;   /* كيبقى لاصق لتحت حتى لو حركتي الصفحة */
+    bottom: 0;         /* في أقصى الأسفل */
+    left: 0;
+    width: 100%;       /* باش يشد العرض كامل ويجي النص في الوسط */
+    text-align: center;
+    padding: 15px 0;   /* مساحة خاوية باش ما يجيش لاصق في الحافة */
+    background-color: transparent; /* خليه شفاف باش يبان غير النص */
+    color: #888d7f;    /* لون رمادي أنيق */
+    font-size: 14px;
+    font-family: sans-serif;
+    font-style: italic;
+     word-spacing: 3px;
+}
